@@ -1,0 +1,40 @@
+header {
+  background-color: hsl(217, 28%, 15%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 17px;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+header > img {
+  width: 50%;
+  max-width: 70px;
+  padding: 5px;
+}
+header > div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+header > div > nav > ul > li > a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+@media (min-width: 1440px) {
+}

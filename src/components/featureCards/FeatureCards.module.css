@@ -1,0 +1,21 @@
+.cardsContent {
+  background: hsl(218, 28%, 13%) 25%;
+}
+img {
+  width: 55px;
+  text-align: center;
+}
+.card {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  padding: 30px;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}

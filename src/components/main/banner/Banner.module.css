@@ -1,0 +1,19 @@
+.bannerContent {
+  background: linear-gradient(transparent 25%, hsl(218, 28%, 13%) 25%);
+}
+.bannerContent img {
+  width: 285px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.productiveImg {
+  text-align: center;
+}
+.mainContent {
+  padding: 25px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans", sans-serif;
+}
+.mainContent a {
+  color: hsl(198, 58%, 53%);
+}
