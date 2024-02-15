@@ -26,3 +26,10 @@
 .bottom ul li {
   padding: 8px;
 }
+.blank{
+  padding: 80px;
+}
+@media (min-width: 1440px) {
+
+
+}

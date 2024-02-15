@@ -31,9 +31,6 @@
 }
 
 @media (min-width: 1440px) {
-  .contentCard {
-    width: 30%;
-  }
   .cardsContent {
     display: flex;
     flex-direction: row;

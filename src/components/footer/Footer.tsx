@@ -3,15 +3,18 @@ import iconLocation from "../../assets/icon-location.svg";
 import iconPhone from "../../assets/icon-phone.svg";
 import iconEmail from "../../assets/icon-email.svg";
 import logo from "../../assets/logo.svg";
+import EmailBanner from "../main/emailBanner/EmailBanner";
 
 function Footer() {
   return (
     <>
+      <EmailBanner />
       <div className={styles.content}>
+        <div className={styles.blank}></div>
         <div className={styles.imgLogo}>
           <img src={logo} />
         </div>
-
+        <div className={styles.container}>
         <div className={styles.top}>
           <div className={styles.description}>
             <img src={iconLocation} />
@@ -44,17 +47,13 @@ function Footer() {
           </ul>
         </div>
         <div className={styles.social}>
-          <div className={styles.socialIcons}>
-          
-          </div>
-          <div className={styles.socialIcons}>
-
-          </div>
-          <div className={styles.socialIcons}>
-
-          </div>
+          <div className={styles.socialIcons}></div>
+          <div className={styles.socialIcons}></div>
+          <div className={styles.socialIcons}></div>
         </div>
       </div>
+        </div>
+        
     </>
   );
 }

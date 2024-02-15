@@ -21,3 +21,19 @@
   width: 20px;
   margin: 0;
 }
+@media (min-width: 1440px) {
+  .bannerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerContent .productiveImg{
+    width: 500px;
+  }
+  .mainContent{
+    width: 500px;
+  }
+  .maincontent h2{
+    font-size: 15px;
+  }
+}
