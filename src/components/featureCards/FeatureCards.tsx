@@ -14,9 +14,6 @@ const Card = ({ icon, title, text }: Props) => {
         <h2>{title}</h2>
         <p>{text}</p>
       </div>
-      <div className={styles.profile}>
-
-      </div>
     </div>
   );
 };

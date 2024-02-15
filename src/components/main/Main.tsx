@@ -6,6 +6,7 @@ import Banner from "../main/banner/Banner";
 import CardComments from "../commentsCards/CommentsCards";
 import { comments } from "../../utils/dataComments";
 import Footer from "../footer/Footer";
+import EmailBanner from "./emailBanner/EmailBanner";
 
 function Main() {
   return (
@@ -38,7 +39,9 @@ function Main() {
             );
           })}
         </div>
+        <EmailBanner />
         <Footer />
+
       </div>
     </>
   );

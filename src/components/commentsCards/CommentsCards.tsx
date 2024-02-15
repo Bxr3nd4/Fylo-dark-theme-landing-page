@@ -10,13 +10,19 @@ interface Props {
 const Card = ({ comment, pic, name, position }: Props) => {
   return (
     <div className={styles.cardsContent}>
-      <div className={styles.card}>
-        <p>{comment}</p>
-      </div>
-      <div className={styles.profile}>
-        <img src={pic} />
-        <h2>{name}</h2>
-        <p>{position}</p>
+      <div className={styles.contentCard}>
+        <div className={styles.card}>
+          <p>{comment}</p>
+        </div>
+        <div className={styles.profile}>
+          <div className={styles.picture}>
+            <img src={pic} />
+          </div>
+          <div className={styles.text}>
+            <h2>{name}</h2>
+            <p>{position}</p>
+          </div>
+        </div>
       </div>
     </div>
   );

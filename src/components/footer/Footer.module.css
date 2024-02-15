@@ -1,16 +1,14 @@
 .content {
   background-color: hsl(216, 53%, 9%);
   color: hsl(0, 0%, 100%);
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: "Open Sans", sans-serif;
 }
-.top{
-    padding: 15px;
+.top {
+  padding: 15px;
 }
 .description img {
   width: 20px;
   height: 20px;
-
 }
 .imgLogo img {
   width: 180px;
@@ -22,9 +20,9 @@
   gap: 20px;
   align-items: center;
 }
-.bottom{
-    padding: 25px;
+.bottom {
+  padding: 25px;
 }
-.bottom ul li{
-    padding: 8px;
+.bottom ul li {
+  padding: 8px;
 }
