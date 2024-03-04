@@ -5,8 +5,10 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <>
-      <header>
-        <img src={logo} alt="logo" />
+      <div className={styles.header}>
+        <div className={styles.logo}>
+          <img src={logo} alt="logo" />
+        </div>
         <div className={styles.header}>
           <nav>
             <ul className={styles.list}>
@@ -22,7 +24,7 @@ function Header() {
             </ul>
           </nav>
         </div>
-      </header>
+      </div>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import styles from "./Started.module.css";
 import filesImg from "../../../assets/illustration-intro.png";
+// import desktopImg from "../../../assets/bg-curvy-desktop.svg"
 
 function Started() {
   return (
@@ -8,6 +9,9 @@ function Started() {
         <div className={styles.filesImg}>
           <img src={filesImg} alt="" />
         </div>
+        {/* <div className={styles.desktopImg}>
+          <img src={desktopImg} alt="" />
+        </div> */}
         <div className={styles.info}>
           <h1> All your files in one secure location, accessible anywhere.</h1>
           <p>

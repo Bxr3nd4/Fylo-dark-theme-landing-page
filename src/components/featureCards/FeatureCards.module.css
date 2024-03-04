@@ -2,7 +2,7 @@
   background: hsl(218, 28%, 13%) 25%;
   display: flex;
 }
-img {
+.card img {
   width: 55px;
   text-align: center;
 }

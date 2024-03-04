@@ -29,6 +29,22 @@
 .blank{
   padding: 80px;
 }
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+.socialIcons{
+  border: 2px solid white;
+  border-color: white;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 1440px) {
 
 

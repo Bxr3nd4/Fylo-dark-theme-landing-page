@@ -42,7 +42,27 @@
   border-radius: 25px;
   padding: 15px;
   width: 230px;
-  background:  hsl(176, 68%, 64%);
+  background: hsl(176, 68%, 64%);
   border: none;
 }
 
+@media (min-width: 1440px) {
+  .started {
+    background-color: hsl(217, 28%, 15%);
+    background-image: url("../../../assets/bg-curvy-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-y: 320px;
+    padding-top: 110px;
+  }
+  .info h1 {
+    font-size: 38px;
+    width: 50%;
+  }
+  .info p {
+    font-size: 14px;
+    width: 30%;
+  }
+  .started img {
+    width: 500px;
+  }
+}
